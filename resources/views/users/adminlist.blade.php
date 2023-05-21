@@ -92,7 +92,7 @@
 
 <div class="h-5" x-data="{ show: true }" x-show="show" x-init="setTimeout(() => show = false, 3000)">
 @if(Session()->has('success'))
-  <div class="bg-green-300 px-2 py-3 rounded-md text-center z-20 ">
+  <div class="bg-green-300 px-2 py-3 rounded-md text-center ">
     <h1 class="text-md mb-4 text-black">
 {{Session()->get('success')}} </h1>
   </div>
