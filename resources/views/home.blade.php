@@ -13,7 +13,7 @@
 
 
 
-<header class=" flex justify-between bg-black drop-shadow-sm py-4 px-8"  id="header">
+<header class=" flex justify-between bg-white drop-shadow-sm py-4 px-8"  id="header">
                 <button class="md:hidden" @click="openMenu = !openMenu">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" /></svg></button>
 
@@ -21,7 +21,7 @@
 
  
 <!-- dsktop mneu-->
-<nav class="hidden  md:flex text-white bg-black">
+<nav class="hidden  md:flex text-black bg-white">
     <ul class="flex flex-row gap-3  ">
         <li class="inline-flex py-2 px-3 hover:bg-purple-300 hover:text-black rounded-lg">
             <a href="#" class="flex flex-row space-between slign-baseline">
@@ -141,7 +141,7 @@ Cart</a></li>
 <!---close button-->
 
 <button class="absolute top-0 right-0 bottom-0 left-0" @click="openMenu = !openMenu">
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 absolute top-2 right-2">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 absolute top-2 right-2 ">
   <path stroke-linecap="round" stroke-linejoin="round" d="M9.75 9.75l4.5 4.5m0-4.5l-4.5 4.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
 </svg>
 
