@@ -57,8 +57,10 @@
                 <div class=" bg-white flex items-center h-screen px-20 bg-gray-900 bg-opacity-40 ">
                     <div>
                         <div class="flex flex-col">
-                        <h1 class="font=[dm-sans] text-3xl  max-w-xl mt-3  text-black ml-8" id="paragraph">Hello readers!</h1>
-                        <p class="max-w-xl mt-3 text-lg text-black ml-8" id="paragraph">"A reader lives a thousand lives before he dies. The man who never reads lives only one." - George R.R. Martin</p>
+                        <h1 class="text-3xl  max-w-xl mt-3  text-black ml-8" id="paragraph">Hello readers!</h1>
+                        <h1 class=" text-2xl  max-w-xl mt-3  text-black ml-8 " id="paragraph">Browse our collection today..</h1>
+
+                        <p class="max-w-xl mt-3 text-lg text-black ml-8 font-[font-sans] " id="paragraph">"A reader lives a thousand lives before he dies. The man who never reads lives only one." - George R.R. Martin</p>
                         <img src="img/paperback-logo1.png" class="flex items-center justify-center mt-4 h-56"></div>
 
                         
@@ -70,9 +72,9 @@
 
 
 
-    <div class="container mx-auto  lg:w-2/6 mr-10">
-        <div class="max-w-md mx-auto my-10  ">
-            <div class="text-center">
+    <div class="container mx-auto  lg:w-2/6 mr-10  ">
+        <div class="max-w-md mx-auto my-10 lg:mr-10 ">
+            <div class="text-center lg:mr-10 ">
     
                 <h1 class="my-3 text-3xl font-semibold text-gray-700 dark:text-gray-200">Sign in</h1>
                 <p class="text-gray-500 dark:text-gray-400">Sign up to visit your account</p>
@@ -81,7 +83,7 @@
 
 
 
-        <form method="POST" action="{{ route('login') }}" class="rounded-md space-y-6 " >
+        <form method="POST" action="{{ route('login') }}" class="rounded-md space-y-6  lg:mr-10" >
        
             @csrf
 
@@ -129,14 +131,14 @@
 
 
 
-            <div class="block mt-4 flex items-center justify-center">
+            <div class="block mt-4 flex items-center justify-center lg:mr-10">
                 <label for="remember_me" class="flex items-center">
                     <x-checkbox id="remember_me" name="remember" />
                     <span class="ml-2 text-sm text-gray-600">{{ __('Remember me') }}</span>
                 </label>
             </div>
 
-            <p class="mt-10 text-center text-sm text-gray-500">
+            <p class="mt-10 text-center text-sm text-gray-500 lg:mr-10">
             Haven't registered to our store yet?
 
             <a class="font-semibold leading-6 text-indigo-600 hover:text-indigo-500" href="{{ route('register') }}">
