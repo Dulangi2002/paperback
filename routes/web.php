@@ -84,6 +84,7 @@ Route::get('delete-admin/{id}',[UserController::class,'deleteAdmin'])->middlewar
 Route::get('edit-admin/{id}',[UserController::class,'editAdmin'])->middleware(['isitadmin','checkadmin']);  
 Route::post('update-admin',[UserController::class,'updateAdmin']);  
 Route::get('test',[UserController::class,'test']);
+Route::get('gotoadmindash',[UserController::class,'index']);
 
 
 
