@@ -31,39 +31,45 @@
 
 
 
- <div class="flex items-center min-h-screen bg-white dark:bg-gray-900">
+
+
+        <div class="flex items-center min-h-screen bg-white dark:bg-gray-900">
     
- <div class="hidden bg-cover lg:block lg:w-2/3  ">
-                <div class=" bg-white flex items-center h-screen px-20 bg-gray-900 bg-opacity-40 ">
-                    <div>
-                        <div class="flex flex-col">
-                        <h1 class="text-3xl  max-w-xl mt-3  text-black ml-8" id="paragraph">Hello readers!</h1>
-                        <h1 class=" text-2xl  max-w-xl mt-3  text-black ml-8 " id="paragraph">Sign-up to join our community</h1>
-
-                        <p class="max-w-xl mt-3 text-lg text-black ml-8 font-[font-sans] " id="paragraph">"A reader lives a thousand lives before he dies. The man who never reads lives only one." - George R.R. Martin</p>
-                        <img src="img/paperback-logo1.png" class="flex items-center justify-center mt-4 h-56"></div>
-
-                        
-                
-                    </div>
-                </div>
-            </div>
-
-
-
-
-
-    <div class="container mx-auto  lg:w-2/6 mr-10">
-        <div class="max-w-md mx-auto my-10 lg:mr-10 ">
-            <div class="text-center lg:mr-10">
+    <div class="hidden bg-cover lg:block lg:w-2/3 " id="log">
+                   <div class=" bg-white flex items-center h-screen bg-gray-900 bg-opacity-40 ">
+                       <div>
+                           <div class="flex flex-col">
+                          <!-- <h1 class="text-3xl  max-w-xl mt-3  text-black ml-8" id="paragraph">Hello readers!</h1>
+                           <h1 class=" text-2xl  max-w-xl mt-3  text-black ml-8 " id="paragraph">Browse our collection today..</h1>
+   
+                           <p class="max-w-xl mt-3 text-lg text-black ml-8 font-[font-sans] " id="paragraph">"A reader lives a thousand lives before he dies. The man who never reads lives only one." - George R.R. Martin</p>-->
+                           <img src="img/form.jpg" class="w-full h-screen object-cover  ml-0 pl-0"></div>
+   
+                           
+                   
+                       </div>
+                   </div>
+    </div>
+   
+   
+   
+   
+       <div class="container mx-auto  lg:w-3/6 ml-5 ">
+   
+           <div class="max-w-md mx-auto my-10  ">
+           <div class="flex ml-auto mr-auto  justify-center ">
+           <img src="img/paperback-logo1.png" class=" -mt-14 h-28 w-4/6 lg:mr-10 lg:ml-10 "></div>
+   
+   </div>
+               <div class="text-center lg:mr-10 lg:ml-10 ">
     
-                <h1 class="my-3 text-3xl font-semibold text-gray-700 dark:text-gray-200">Sign up</h1>
+                <h1 class="my-3 text-3xl font-semibold text-gray-700 dark:text-gray-200 -mt-10">Sign up</h1>
                 <p class="text-gray-500 dark:text-gray-400">Sign up to create an account</p>
             </div>
             <div class="m-7">
 
        
-             <form method="POST" action="{{ route('register') }} " class="rounded-md space-y-6  lg:mr-10">
+             <form method="POST" action="{{ route('register') }} " class="rounded-md space-y-6  lg:mr-10 lg:ml-10">
              <x-validation-errors class="mb-4" />
             @csrf
 
