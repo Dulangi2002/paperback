@@ -11,7 +11,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         </head>
 
-<body>
+<body id="loginbdy">
 
 
 
@@ -25,7 +25,7 @@
  
        
 
-        <x-validation-errors class="mb-4 h-10 bg-red-300 text-center  justify-center" x-data="{ show: true }" x-show="show" x-init="setTimeout(() => show = false, 3000)"/>
+        <x-validation-errors class="mb-4 h-10 bg-red-300 text-center justify-center relative z-20" x-data="{ show: true }" x-show="show" x-init="setTimeout(() => show = false, 3000)"/>
       
     
 
