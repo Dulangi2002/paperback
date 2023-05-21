@@ -85,7 +85,7 @@ class ProductController extends Controller
     public function updateProduct(Request $request){
         $request ->validate([
             'name' => 'required',
-            'author => required',
+            'author' => 'required',
             'description' => 'required',
             'category' => 'required',
             'quantity' => 'required',   
