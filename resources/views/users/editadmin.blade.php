@@ -103,7 +103,7 @@
         
         <div class="flex flex-row">
         <button type="submit" class= "mt-4 font-[dm-sans] ml-4 bg-indigo-300 px-10 py-2 rounded-3xl hover:bg-indigo-600 hover:text-white transition delay-150 ease-in-out" >Submit</button><br>
-        <button class= "mt-4 font-[dm-sans] ml-4 bg-indigo-300 px-10 py-2 rounded-3xl hover:bg-indigo-600 hover:text-white transition delay-150 ease-in-out" ><a href="{{URL('admin-list')}}"> Back </a></button>
+        <a href="{{URL('admin-list')}}" class= "mt-4 font-[dm-sans] ml-4 bg-indigo-300 px-10 py-2 rounded-3xl hover:bg-indigo-600 hover:text-white transition delay-150 ease-in-out"> Back </a>
         </div>
 
 

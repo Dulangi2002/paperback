@@ -118,7 +118,7 @@
 
 <button type="submit" class="font-[dm-sans] ml-6 mt-4 mb-4 bg-indigo-300 px-10 py-2 rounded-3xl hover:bg-indigo-600 hover:text-white transition delay-150 ease-in-out" >Update</button><br>
 
-<button type="submit" class="font-[dm-sans] ml-6 mt-4 mb-4 bg-indigo-300 px-10 py-2 rounded-3xl hover:bg-indigo-600 hover:text-white transition delay-150 ease-in-out" ><a href="{{url('backtoproducts')}}">Back</a></button><br>
+<a href="{{url('backtoproducts')}}" class="font-[dm-sans] ml-6 mt-4 mb-4 bg-indigo-300 px-10 py-2 rounded-3xl hover:bg-indigo-600 hover:text-white transition delay-150 ease-in-out" >Back</a><br>
 
 
 </div>
