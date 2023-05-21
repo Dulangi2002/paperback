@@ -11,7 +11,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         </head>
 
-<body>
+<body id="black">
 
 
 
@@ -36,12 +36,15 @@
  <div class="hidden bg-cover lg:block lg:w-2/3  ">
                 <div class=" bg-white flex items-center h-screen px-20 bg-gray-900 bg-opacity-40 ">
                     <div>
-                        <div class="flex items-center">
+                        <div class="flex flex-col">
+                        <h1 class="text-3xl  max-w-xl mt-3  text-black ml-8" id="paragraph">Hello readers!</h1>
+                        <h1 class=" text-2xl  max-w-xl mt-3  text-black ml-8 " id="paragraph">Sign-up to join our community</h1>
+
+                        <p class="max-w-xl mt-3 text-lg text-black ml-8 font-[font-sans] " id="paragraph">"A reader lives a thousand lives before he dies. The man who never reads lives only one." - George R.R. Martin</p>
                         <img src="img/paperback-logo1.png" class="flex items-center justify-center mt-4 h-56"></div>
-                        <p class="max-w-xl mt-3 text-lg text-black ml-8">Hello readers,</p>
 
-
-                        <p class="max-w-xl mt-3 text-lg text-black ml-8">Join our community and experience amazing benefits</p>
+                        
+                
                     </div>
                 </div>
             </div>
@@ -49,9 +52,10 @@
 
 
 
+
     <div class="container mx-auto  lg:w-2/6 mr-10">
-        <div class="max-w-md mx-auto my-10  ">
-            <div class="text-center">
+        <div class="max-w-md mx-auto my-10 lg:mr-10 ">
+            <div class="text-center lg:mr-10">
     
                 <h1 class="my-3 text-3xl font-semibold text-gray-700 dark:text-gray-200">Sign up</h1>
                 <p class="text-gray-500 dark:text-gray-400">Sign up to create an account</p>
@@ -59,7 +63,7 @@
             <div class="m-7">
 
        
-             <form method="POST" action="{{ route('register') }} " class="rounded-md space-y-6">
+             <form method="POST" action="{{ route('register') }} " class="rounded-md space-y-6  lg:mr-10">
              <x-validation-errors class="mb-4" />
             @csrf
 
@@ -114,14 +118,14 @@
             @endif
 
          
-            <div class="flex items-center justify-center mt-4">
+            <div class="flex items-center justify-center mt-4 ">
 
                 <x-button class="w-full px-3 py-4 text-white bg-purple-500 rounded-md focus:bg-purple-600 focus:outline-none justify-center">
                     {{ __('Register') }}
                 </x-button>
             </div>
 
-            <div class="flex items-center justify-center mt-4">
+            <div class="flex items-center justify-center mt-4 ">
                 <a class="font-semibold leading-6 text-purple-600 hover:text-purple-500" href="{{ route('login') }}">
                     {{ __('Already registered?') }}
                 </a>
