@@ -128,7 +128,7 @@
   <div class="flex flex-row ">
 
   <button class= "mt-4 font-[dm-sans] ml-4 bg-indigo-300 px-10 py-2 rounded-3xl hover:bg-indigo-600 hover:text-white transition delay-150 ease-in-out" type="submit" @click="SubmitCreateProduct">Submit</button><br>
-  <button class= "mt-4 font-[dm-sans] ml-4 bg-indigo-300 px-10 py-2 rounded-3xl hover:bg-indigo-600 hover:text-white transition delay-150 ease-in-out" ><a href="{{URL('product-list')}}">back</a> </button>
+  <button class= "mt-4 font-[dm-sans] ml-4 bg-indigo-300 px-10 py-2 rounded-3xl hover:bg-indigo-600 hover:text-white transition delay-150 ease-in-out" ><a href="{{url('backtoproducts')}}">back</a> </button>
   </div>
 
 
